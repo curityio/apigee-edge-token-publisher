@@ -2,7 +2,7 @@
 
 This is an example event listener SDK Plugin for the Curity Identity Server. The plugin registers an event listener 
 listening for issued access token events, and forwards them to Apigee Edge. See the tutorial on 
-[Integrating Apigee with Curity](https://developer.curity.io/tutorials/apigee-integration) for the full story on how 
+[Integrating Apigee with Curity](https://curity.io/resources/operate/tutorials/integration/integration-apigee/) for the full story on how 
 Apigee Edge might be integrated with Curity.
 
 ## Building, installation and configuration
