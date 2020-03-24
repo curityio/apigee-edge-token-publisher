@@ -7,10 +7,7 @@ Apigee Edge might be integrated with Curity.
 
 ## Building, installation and configuration
 
-To build the plugin, simply download it and run `mvn package`. This creates the directory structure
-`usr/share/plugins/apigee_edge_token_publisher` in the `target` directory which you can copy right into your `idsvr`
-installation. Start the server and configure a new event listener (shown here using the Admin UI, but might just as well
-be configured through the CLI, REST or XML):
+To build the plugin, simply download it and run `mvn package`. This creates `target/identityserver.plugins.events.listeners.apigee-edge-token-publisher-1.0.0.jar`. Create a new folder `apigee_edge_token_publisher` in `<idsvr_home>/usr/share/plugins/` then copy the jar to that folder and (re)start the Curity Identity Server. Configure a new event listener (shown here using the Admin UI, but might just as well be configured through the CLI, REST or XML):
 
 ![Add new listener](docs/new_listener.png)
 
