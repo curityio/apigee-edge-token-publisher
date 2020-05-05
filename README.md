@@ -1,5 +1,8 @@
 # Apigee Edge Token Publisher Demo Plugin
 
+[![Quality](https://curity.io/assets/images/badges/apigee-token-publisher-event-listener-quality.svg)](https://curity.io/resources/code-examples/status/)
+[![Availability](https://curity.io/assets/images/badges/apigee-token-publisher-event-listener-availability.svg)](https://curity.io/resources/code-examples/status/)
+
 This is an example event listener SDK Plugin for the Curity Identity Server. The plugin registers an event listener 
 listening for issued access token events, and forwards them to Apigee Edge. See the tutorial on 
 [Integrating Apigee with Curity](https://curity.io/resources/operate/tutorials/integration/integration-apigee/) for the full story on how 
